@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<link rel="stylesheet" href="style.css">
+<div id="container">
+    <h1>CRUD Operations</h1><br>
+    <input type="hidden" id="id">
+    <input type="text" id="name" placeholder="Please enter name">
+    <input type="text" id="email" placeholder="Please enter email">
+    <button onclick="personAdd()">Add</button>
+    <button onclick="personEdit()">Edit</button>
+    <button onclick="deletePerson()">Delete</button>
+</div><br>
+
+<table id="dataTable">
+    <thead>
+        <tr style="background-color: #4CAF50; color: white;">
+            <td style="width: 50px;"><input type="checkbox" id="selectAll" onclick="toggleSelectAll()"></td>
+            <td style="width: 50px;">ID</td>
+            <td style="width: 400px;">Name</td>
+            <td style="width: 300px;">Email</td>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<script src="script.js"></script>
+</body>
+</html>

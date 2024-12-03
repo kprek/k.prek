@@ -1,0 +1,54 @@
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+#dataTable {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+input {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    border: 1px solid;
+    border-color: #4CAF50;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #3e8e41;
+}
+
+table {
+    border-collapse: collapse;
+    width: 900px;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
